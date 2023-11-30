@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git diff on آموزش Git</title>
+    <link>https://dothossein.github.io/git-tutorial/tags/git-diff/</link>
+    <description>Recent content in git diff on آموزش Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language><atom:link href="https://dothossein.github.io/git-tutorial/tags/git-diff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git diff</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-6/</guid>
+      <description>git diff مقایسه دایرکتوری و استیج
+git diff git diff &amp;ndash;staged مقایسه آخرین کامیت و استیج
+git diff --staged git diff HEAD مقایسه آخرین کامیت و دایرکتوری
+git diff HEAD git diff &amp;lt;hash_comit_1&amp;gt;..&amp;lt;hash_commit_2&amp;gt; مقایسه دو کامیت
+git diff &amp;lt;hash_comit_1&amp;gt;..&amp;lt;hash_commit_2&amp;gt; برای مشاهده هش:
+git log --oneline git diff &amp;lt;branch_1&amp;gt;..&amp;lt;branch_2&amp;gt; مقایسه دو برنچ با هم
+git diff &amp;lt;branch_1&amp;gt;..&amp;lt;branch_2&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

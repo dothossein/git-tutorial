@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on آموزش Git</title>
+    <link>https://dothossein.github.io/git-tutorial/categories/</link>
+    <description>Recent content in Categories on آموزش Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language><atom:link href="https://dothossein.github.io/git-tutorial/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> git diff --staged</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/git-diff--staged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/git-diff--staged/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>amend</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/amend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/amend/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>branch</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conflict</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/conflict/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/conflict/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>delete branch</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/delete-branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/delete-branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git add</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/git-add/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/git-add/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git commit</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/git-commit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/git-commit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git diff</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/git-diff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/git-diff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git ignore</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/git-ignore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/git-ignore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git restore</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/git-restore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/git-restore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>merge branch</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/merge-branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/merge-branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rename branch</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/rename-branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/rename-branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reset</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/reset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/reset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>revert</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/revert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/revert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>switch branch</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/switch-branch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/switch-branch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>بازگشت به یک کامیت</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/%D8%A8%D8%A7%D8%B2%DA%AF%D8%B4%D8%AA-%D8%A8%D9%87-%DB%8C%DA%A9-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/%D8%A8%D8%A7%D8%B2%DA%AF%D8%B4%D8%AA-%D8%A8%D9%87-%DB%8C%DA%A9-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>حذف کامیت</title>
+      <link>https://dothossein.github.io/git-tutorial/categories/%D8%AD%D8%B0%D9%81-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/categories/%D8%AD%D8%B0%D9%81-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

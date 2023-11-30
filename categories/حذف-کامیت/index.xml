@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>حذف کامیت on آموزش Git</title>
+    <link>https://dothossein.github.io/git-tutorial/categories/%D8%AD%D8%B0%D9%81-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA/</link>
+    <description>Recent content in حذف کامیت on آموزش Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language><atom:link href="https://dothossein.github.io/git-tutorial/categories/%D8%AD%D8%B0%D9%81-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>حذف کامیت (reset)</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-9/</guid>
+      <description>حذف کامیت بدون حذف تغییرات فایل با استفاده از reset کامیت ها پاک می شوند اما تغییرات ایجاد شده در فایل حذف نمی شوند
+git log --oneline --allgit reset &amp;lt;hash&amp;gt; حذف کامیت و حذف تغییرات فایل git reset --hard &amp;lt;hash&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

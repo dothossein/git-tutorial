@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git restore on آموزش Git</title>
+    <link>https://dothossein.github.io/git-tutorial/tags/git-restore/</link>
+    <description>Recent content in git restore on آموزش Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language><atom:link href="https://dothossein.github.io/git-tutorial/tags/git-restore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>restore</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-8/</guid>
+      <description> restore برای حذف تغییرات جدیدی که در دایرکتوری ایجاد کرده ایم
+git restore &amp;lt;file&amp;gt; restore برای unstage کردن
+git restore --staged &amp;lt;file&amp;gt; بازگشت به یک کامیت بدون تغییر هد git restore --source &amp;lt;hash&amp;gt; &amp;lt;file&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

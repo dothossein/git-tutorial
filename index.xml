@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>آموزش Git</title>
+    <link>https://dothossein.github.io/git-tutorial/</link>
+    <description>Recent content on آموزش Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language><atom:link href="https://dothossein.github.io/git-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://dothossein.github.io/git-tutorial/sample/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/sample/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>branch</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-3/</guid>
+      <description>ساخت branch با دستور زیر یک branch ایجاد می کنیم
+git branch &amp;lt;name&amp;gt; نشان دادن branch فعلی git branch تعویض branch git switch &amp;lt;name of branch&amp;gt; هر تغییراتی در هر برنچی صورت گیرد فقط بر روی همان برنچ اعمال می شود
+یک برنچ ایجاد و روی آن سویچ می کند git switch -c &amp;lt;name&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>git add &amp; git commit</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-1/</guid>
+      <description>git add با استفاده از cmd وارد دایرکتوری مورد نظر می شویم
+git initgit status برای رهگیری و تِرَک فایل ها در یک دایرکتوری از دستورات زیر استفاده می کنیم
+git add &amp;lt;file&amp;gt;یاgit add .یاgit add &amp;lt;file1&amp;gt; &amp;lt;file2&amp;gt; برای عدم رهگیری و بازگشت به حالت قبل
+git rm --cached &amp;lt;file&amp;gt; git commit با استفاده از مسیج کامیت ها را رهگیری میکنیم
+git commit -m &amp;#34;&amp;lt;massage&amp;gt;&amp;#34; برای بار اول باید یوزر و ایمیل را وارد کنیم</description>
+    </item>
+    
+    <item>
+      <title>git diff</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-6/</guid>
+      <description>git diff مقایسه دایرکتوری و استیج
+git diff git diff &amp;ndash;staged مقایسه آخرین کامیت و استیج
+git diff --staged git diff HEAD مقایسه آخرین کامیت و دایرکتوری
+git diff HEAD git diff &amp;lt;hash_comit_1&amp;gt;..&amp;lt;hash_commit_2&amp;gt; مقایسه دو کامیت
+git diff &amp;lt;hash_comit_1&amp;gt;..&amp;lt;hash_commit_2&amp;gt; برای مشاهده هش:
+git log --oneline git diff &amp;lt;branch_1&amp;gt;..&amp;lt;branch_2&amp;gt; مقایسه دو برنچ با هم
+git diff &amp;lt;branch_1&amp;gt;..&amp;lt;branch_2&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>git ignore</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-2/</guid>
+      <description>git ignore برای نادیده گرفتن تعدادی از فایل های در git status از .gitignore استفاده میکنیم در دایرکتوری مورد نظر یک فایل با نام .gitignore ایجاد میکنیم و تمامی فایل هایی که می خواهیم توسط گیت نادیده گرفته شوند را در آن می نویسیم
+.gitignore
+file4.txt فایل بالا در git status نشان داده نمی شود</description>
+    </item>
+    
+    <item>
+      <title>merge branch</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-5/</guid>
+      <description>merge brach بر روی برنچ master می رویم سپس دستور زیر:
+git merge &amp;lt;name of branch&amp;gt; Conflict وارد فایل مورد نظر در ادیتور شده تداخلات نشان داده شده را رفع می کنیم و مجددا:
+git add .git commit -m &amp;#34;conflict fix&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>rename &amp; delete branch</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-4/</guid>
+      <description>Rename branch ابتدا با دستور git switch بر روی برنچ مورد نظر رفته سپس با دستور زیر برنچ را تغییرنام می دهیم
+git branch -m &amp;lt;renamed name&amp;gt; Delet branch ابتدا بر روی برنچی دیگر می رویم
+git branch -D &amp;lt;name of branch&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>restore</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-8/</guid>
+      <description> restore برای حذف تغییرات جدیدی که در دایرکتوری ایجاد کرده ایم
+git restore &amp;lt;file&amp;gt; restore برای unstage کردن
+git restore --staged &amp;lt;file&amp;gt; بازگشت به یک کامیت بدون تغییر هد git restore --source &amp;lt;hash&amp;gt; &amp;lt;file&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>revert</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-10/</guid>
+      <description>revert بازگشت به یک کامیت
+انجام تغییرات در آن کامیت و حل conflict ها
+مجددا برگشت به کامیت آخر
+git revert &amp;lt;hash&amp;gt;git add .git revert --continue تفاوت با دستور reset دستور ریست کامیت ها را پاک می کند اما revert آنها را نگه میدارد</description>
+    </item>
+    
+    <item>
+      <title>بازگشت به یک کامیت</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-7/</guid>
+      <description>بازگشت به یک کامیت git log --oneline --allgit checkout &amp;lt;hash&amp;gt; ویا
+git checkout HEAD~2 دستور بالا هد را دو ردیف پایین می آورد
+بازگشت به یک کامیت بدون تغییر هد git restore --source &amp;lt;hash&amp;gt; &amp;lt;file&amp;gt; </description>
+    </item>
+    
+    
+    <item>
+      <title>حذف کامیت (reset)</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-9/</guid>
+      <description>حذف کامیت بدون حذف تغییرات فایل با استفاده از reset کامیت ها پاک می شوند اما تغییرات ایجاد شده در فایل حذف نمی شوند
+git log --oneline --allgit reset &amp;lt;hash&amp;gt; حذف کامیت و حذف تغییرات فایل git reset --hard &amp;lt;hash&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

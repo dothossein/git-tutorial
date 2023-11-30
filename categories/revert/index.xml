@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>revert on آموزش Git</title>
+    <link>https://dothossein.github.io/git-tutorial/categories/revert/</link>
+    <description>Recent content in revert on آموزش Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language><atom:link href="https://dothossein.github.io/git-tutorial/categories/revert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>revert</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-10/</guid>
+      <description>revert بازگشت به یک کامیت
+انجام تغییرات در آن کامیت و حل conflict ها
+مجددا برگشت به کامیت آخر
+git revert &amp;lt;hash&amp;gt;git add .git revert --continue تفاوت با دستور reset دستور ریست کامیت ها را پاک می کند اما revert آنها را نگه میدارد</description>
+    </item>
+    
+  </channel>
+</rss>

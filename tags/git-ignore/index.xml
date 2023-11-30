@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>git ignore on آموزش Git</title>
+    <link>https://dothossein.github.io/git-tutorial/tags/git-ignore/</link>
+    <description>Recent content in git ignore on آموزش Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language><atom:link href="https://dothossein.github.io/git-tutorial/tags/git-ignore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git ignore</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-2/</guid>
+      <description>git ignore برای نادیده گرفتن تعدادی از فایل های در git status از .gitignore استفاده میکنیم در دایرکتوری مورد نظر یک فایل با نام .gitignore ایجاد میکنیم و تمامی فایل هایی که می خواهیم توسط گیت نادیده گرفته شوند را در آن می نویسیم
+.gitignore
+file4.txt فایل بالا در git status نشان داده نمی شود</description>
+    </item>
+    
+  </channel>
+</rss>

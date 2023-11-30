@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>branch on آموزش Git</title>
+    <link>https://dothossein.github.io/git-tutorial/categories/branch/</link>
+    <description>Recent content in branch on آموزش Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language><atom:link href="https://dothossein.github.io/git-tutorial/categories/branch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>branch</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-3/</guid>
+      <description>ساخت branch با دستور زیر یک branch ایجاد می کنیم
+git branch &amp;lt;name&amp;gt; نشان دادن branch فعلی git branch تعویض branch git switch &amp;lt;name of branch&amp;gt; هر تغییراتی در هر برنچی صورت گیرد فقط بر روی همان برنچ اعمال می شود
+یک برنچ ایجاد و روی آن سویچ می کند git switch -c &amp;lt;name&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>
