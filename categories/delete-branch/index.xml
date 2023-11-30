@@ -13,7 +13,7 @@
       
       <guid>https://dothossein.github.io/git-tutorial/blog/lesson-4/</guid>
       <description>Rename branch ابتدا با دستور git switch بر روی برنچ مورد نظر رفته سپس با دستور زیر برنچ را تغییرنام می دهیم
-git branch -m &amp;lt;renamed name&amp;gt; Delet branch ابتدا بر روی برنچی دیگر می رویم
+git branch -m &amp;lt;renamed name&amp;gt; Delete branch ابتدا بر روی برنچی دیگر می رویم
 git branch -D &amp;lt;name of branch&amp;gt; </description>
     </item>
     

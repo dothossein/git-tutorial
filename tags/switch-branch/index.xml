@@ -14,7 +14,8 @@
       <guid>https://dothossein.github.io/git-tutorial/blog/lesson-3/</guid>
       <description>ساخت branch با دستور زیر یک branch ایجاد می کنیم
 git branch &amp;lt;name&amp;gt; نشان دادن branch فعلی git branch تعویض branch git switch &amp;lt;name of branch&amp;gt; هر تغییراتی در هر برنچی صورت گیرد فقط بر روی همان برنچ اعمال می شود
-یک برنچ ایجاد و روی آن سویچ می کند git switch -c &amp;lt;name&amp;gt; </description>
+یک برنچ ایجاد و روی آن سویچ می کند git switch -c &amp;lt;name&amp;gt; تعویض نام برنچ بر روی برنچ مورد نظر سویچ میکنیم
+git branch -M &amp;lt;new name&amp;gt; </description>
     </item>
     
   </channel>

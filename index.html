@@ -163,7 +163,8 @@
   <div class="entry-content">
     <p>ساخت branch با دستور زیر یک branch ایجاد می کنیم
 git branch &lt;name&gt; نشان دادن branch فعلی git branch تعویض branch git switch &lt;name of branch&gt; هر تغییراتی در هر برنچی صورت گیرد فقط بر روی همان برنچ اعمال می شود
-یک برنچ ایجاد و روی آن سویچ می کند git switch -c &lt;name&gt; </p>
+یک برنچ ایجاد و روی آن سویچ می کند git switch -c &lt;name&gt; تعویض نام برنچ بر روی برنچ مورد نظر سویچ میکنیم
+git branch -M &lt;new name&gt; </p>
   </div>
   <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
   <a class="entry-link" aria-label="post link to branch" href="https://dothossein.github.io/git-tutorial/blog/lesson-3/"></a>
@@ -233,12 +234,26 @@ git add .git commit -m &#34;conflict fix&#34; </p>
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>remote &amp; push
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>remote git remote add &lt;name(for example origin)&gt; &lt;url&gt; name: یک لیبل بصورت قراردادی است و هر اسمی می تواند باشد
+دستور زیر لیبل را نشان میدهد
+git remote push git push -u &lt;remote name&gt; &lt;branch name&gt; </p>
+  </div>
+  <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
+  <a class="entry-link" aria-label="post link to remote &amp; push" href="https://dothossein.github.io/git-tutorial/blog/lesson-11/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>rename &amp; delete branch
     </h2>
   </header>
   <div class="entry-content">
     <p>Rename branch ابتدا با دستور git switch بر روی برنچ مورد نظر رفته سپس با دستور زیر برنچ را تغییرنام می دهیم
-git branch -m &lt;renamed name&gt; Delet branch ابتدا بر روی برنچی دیگر می رویم
+git branch -m &lt;renamed name&gt; Delete branch ابتدا بر روی برنچی دیگر می رویم
 git branch -D &lt;name of branch&gt; </p>
   </div>
   <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
@@ -287,19 +302,12 @@ git checkout HEAD~2 دستور بالا هد را دو ردیف پایین می 
   <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
   <a class="entry-link" aria-label="post link to بازگشت به یک کامیت" href="https://dothossein.github.io/git-tutorial/blog/lesson-7/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>حذف کامیت (reset)
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>حذف کامیت بدون حذف تغییرات فایل با استفاده از reset کامیت ها پاک می شوند اما تغییرات ایجاد شده در فایل حذف نمی شوند
-git log --oneline --allgit reset &lt;hash&gt; حذف کامیت و حذف تغییرات فایل git reset --hard &lt;hash&gt; </p>
-  </div>
-  <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
-  <a class="entry-link" aria-label="post link to حذف کامیت (reset)" href="https://dothossein.github.io/git-tutorial/blog/lesson-9/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://dothossein.github.io/git-tutorial/page/2/">صفحه بعدی&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

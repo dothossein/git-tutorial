@@ -23,7 +23,8 @@
       <guid>https://dothossein.github.io/git-tutorial/blog/lesson-3/</guid>
       <description>ساخت branch با دستور زیر یک branch ایجاد می کنیم
 git branch &amp;lt;name&amp;gt; نشان دادن branch فعلی git branch تعویض branch git switch &amp;lt;name of branch&amp;gt; هر تغییراتی در هر برنچی صورت گیرد فقط بر روی همان برنچ اعمال می شود
-یک برنچ ایجاد و روی آن سویچ می کند git switch -c &amp;lt;name&amp;gt; </description>
+یک برنچ ایجاد و روی آن سویچ می کند git switch -c &amp;lt;name&amp;gt; تعویض نام برنچ بر روی برنچ مورد نظر سویچ میکنیم
+git branch -M &amp;lt;new name&amp;gt; </description>
     </item>
     
     <item>
@@ -77,13 +78,24 @@ git add .git commit -m &amp;#34;conflict fix&amp;#34; </description>
     </item>
     
     <item>
+      <title>remote &amp; push</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-11/</guid>
+      <description>remote git remote add &amp;lt;name(for example origin)&amp;gt; &amp;lt;url&amp;gt; name: یک لیبل بصورت قراردادی است و هر اسمی می تواند باشد
+دستور زیر لیبل را نشان میدهد
+git remote push git push -u &amp;lt;remote name&amp;gt; &amp;lt;branch name&amp;gt; </description>
+    </item>
+    
+    <item>
       <title>rename &amp; delete branch</title>
       <link>https://dothossein.github.io/git-tutorial/blog/lesson-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dothossein.github.io/git-tutorial/blog/lesson-4/</guid>
       <description>Rename branch ابتدا با دستور git switch بر روی برنچ مورد نظر رفته سپس با دستور زیر برنچ را تغییرنام می دهیم
-git branch -m &amp;lt;renamed name&amp;gt; Delet branch ابتدا بر روی برنچی دیگر می رویم
+git branch -m &amp;lt;renamed name&amp;gt; Delete branch ابتدا بر روی برنچی دیگر می رویم
 git branch -D &amp;lt;name of branch&amp;gt; </description>
     </item>
     
