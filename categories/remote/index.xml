@@ -12,10 +12,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dothossein.github.io/git-tutorial/blog/lesson-11/</guid>
-      <description>remote git remote add &amp;lt;name(for example origin)&amp;gt; &amp;lt;url&amp;gt; name: یک لیبل بصورت قراردادی است و هر اسمی می تواند باشد
+      <description>remote git remote add &amp;lt;name(origin)&amp;gt; &amp;lt;url&amp;gt; name: یک لیبل بصورت قراردادی است و هر اسمی می تواند باشد
 دستور زیر لیبل را نشان میدهد
 git remote نشان دادن remote url git remote -v تغییر url git remote set-url &amp;lt;name(origin)&amp;gt; &amp;lt;new url&amp;gt; Remote branch زمانی که یک پروژه را clone می کنیم فقط برنچ اصلی را نشان میدهد
-برای دسترسی به remote branch ها از دستور زیر استفاده می کنیم</description>
+برای دسترسی به remote branch ها از دستور زیر استفاده می کنیم
+git switch &amp;lt;branch name&amp;gt; ابتدا پروژه را کلون می کنیمgit clone &amp;lt;url&amp;gt;مشاهده برنچ هاgit branchمشاهده ریموت برنچ هاgit branch -rدسترسی به سایر برنچ هاgit switch &amp;lt;branch name&amp;gt; push git push -u &amp;lt;remote name&amp;gt; &amp;lt;branch name&amp;gt; </description>
     </item>
     
   </channel>
