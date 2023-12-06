@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dothossein.github.io/git-tutorial/blog/lesson-12/</loc>
+  </url><url>
     <loc>https://dothossein.github.io/git-tutorial/sample/</loc>
   </url><url>
     <loc>https://dothossein.github.io/git-tutorial/categories/git-diff--staged/</loc>
