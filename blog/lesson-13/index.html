@@ -99,7 +99,7 @@
   "keywords": [
     "interactive rebase", "تغییر نام کامیت", "", ""
   ],
-  "articleBody": "نشان دادن تمامی کامیت ها git rebase -i --root Commands: p, pick = use commit r, reword = use commit, but edit the commit message(تغییر نام خود کامیت) e, edit = use commit, but stop for amending s, squash = use commit, but meld into previous commit f, fixup [-C | -c] = like “squash” but keep only the previous(با کامیت بالایی میکس شده و کامیت بالایی را بعنوان پیام ذخیره میکند) commit’s log message, unless -C is used, in which case keep only this commit’s message; -c is same as -C but opens the editor x, exec = run command (the rest of the line) using shell b, break = stop here (continue rebase later with ‘git rebase –continue’) d, drop = remove commit l, label = label current HEAD with a name t, reset = reset HEAD to a label m, merge [-C | -c ] [# ] create a merge commit using the original merge commit’s message (or the oneline, if no original merge commit was specified); use -c to reword the commit message u, update-ref = track a placeholder for the to be updated to this position in the new commits. The is updated at the end of the rebase\nThese lines can be re-ordered; they are executed from top to bottom.\nIf you remove a line here THAT COMMIT WILL BE LOST.\nHowever, if you remove everything, the rebase will be aborted.\n",
+  "articleBody": "نشان دادن تمامی کامیت ها git rebase -i --root Commands: p, pick = use commit\nr, reword = use commit, but edit the commit message(تغییر نام خود کامیت)\ne, edit = use commit, but stop for amending\ns, squash = use commit, but meld into previous commit\nf, fixup [-C | -c] = like “squash” but keep only the previous(با کامیت بالایی میکس شده و کامیت بالایی را بعنوان پیام ذخیره میکند) commit’s log message, unless -C is used, in which case keep only this commit’s message; -c is same as -C but opens the editor\nx, exec = run command (the rest of the line) using shell\nb, break = stop here (continue rebase later with ‘git rebase –continue’)\nd, drop = remove commit\nl, label = label current HEAD with a name\nt, reset = reset HEAD to a label\nm, merge [-C | -c ] [# ] create a merge commit using the original merge commit’s message (or the oneline, if no original merge commit was specified); use -c to reword the commit message\nu, update-ref = track a placeholder for the to be updated to this position in the new commits. The is updated at the end of the rebase\nThese lines can be re-ordered; they are executed from top to bottom.\nIf you remove a line here THAT COMMIT WILL BE LOST.\nHowever, if you remove everything, the rebase will be aborted.\n",
   "wordCount" : "237",
   "inLanguage": "fa",
   "datePublished": "0001-01-01T00:00:00Z",
@@ -214,24 +214,24 @@
   <div class="post-content"><h1 id="نشان-دادن-تمامی-کامیت-ها">نشان دادن تمامی کامیت ها<a hidden class="anchor" aria-hidden="true" href="#نشان-دادن-تمامی-کامیت-ها">#</a></h1>
 <pre tabindex="0"><code>git rebase -i --root
 </code></pre><p>Commands:
-p, pick <!-- raw HTML omitted --> = use commit
-r, reword <!-- raw HTML omitted --> = use commit, but edit the commit message(تغییر نام خود کامیت)
-e, edit <!-- raw HTML omitted --> = use commit, but stop for amending
-s, squash <!-- raw HTML omitted --> = use commit, but meld into previous commit
-f, fixup [-C | -c] <!-- raw HTML omitted --> = like &ldquo;squash&rdquo; but keep only the previous(با کامیت بالایی میکس شده و کامیت بالایی را بعنوان پیام ذخیره میکند)
+p, pick <!-- raw HTML omitted --> = use commit</p>
+<p>r, reword <!-- raw HTML omitted --> = use commit, but edit the commit message(تغییر نام خود کامیت)</p>
+<p>e, edit <!-- raw HTML omitted --> = use commit, but stop for amending</p>
+<p>s, squash <!-- raw HTML omitted --> = use commit, but meld into previous commit</p>
+<p>f, fixup [-C | -c] <!-- raw HTML omitted --> = like &ldquo;squash&rdquo; but keep only the previous(با کامیت بالایی میکس شده و کامیت بالایی را بعنوان پیام ذخیره میکند)
 commit&rsquo;s log message, unless -C is used, in which case
 keep only this commit&rsquo;s message; -c is same as -C but
-opens the editor
-x, exec <!-- raw HTML omitted --> = run command (the rest of the line) using shell
-b, break = stop here (continue rebase later with &lsquo;git rebase &ndash;continue&rsquo;)
-d, drop <!-- raw HTML omitted --> = remove commit
-l, label <!-- raw HTML omitted --> = label current HEAD with a name
-t, reset <!-- raw HTML omitted --> = reset HEAD to a label
-m, merge [-C <!-- raw HTML omitted --> | -c <!-- raw HTML omitted -->] <!-- raw HTML omitted --> [# <!-- raw HTML omitted -->]
+opens the editor</p>
+<p>x, exec <!-- raw HTML omitted --> = run command (the rest of the line) using shell</p>
+<p>b, break = stop here (continue rebase later with &lsquo;git rebase &ndash;continue&rsquo;)</p>
+<p>d, drop <!-- raw HTML omitted --> = remove commit</p>
+<p>l, label <!-- raw HTML omitted --> = label current HEAD with a name</p>
+<p>t, reset <!-- raw HTML omitted --> = reset HEAD to a label</p>
+<p>m, merge [-C <!-- raw HTML omitted --> | -c <!-- raw HTML omitted -->] <!-- raw HTML omitted --> [# <!-- raw HTML omitted -->]
 create a merge commit using the original merge commit&rsquo;s
 message (or the oneline, if no original merge commit was
-specified); use -c <!-- raw HTML omitted --> to reword the commit message
-u, update-ref <!-- raw HTML omitted --> = track a placeholder for the <!-- raw HTML omitted --> to be updated
+specified); use -c <!-- raw HTML omitted --> to reword the commit message</p>
+<p>u, update-ref <!-- raw HTML omitted --> = track a placeholder for the <!-- raw HTML omitted --> to be updated
 to this position in the new commits. The <!-- raw HTML omitted --> is
 updated at the end of the rebase</p>
 <p>These lines can be re-ordered; they are executed from top to bottom.</p>
