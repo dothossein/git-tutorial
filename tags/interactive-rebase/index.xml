@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>interactive rebase on آموزش Git</title>
+    <link>https://dothossein.github.io/git-tutorial/tags/interactive-rebase/</link>
+    <description>Recent content in interactive rebase on آموزش Git</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fa</language><atom:link href="https://dothossein.github.io/git-tutorial/tags/interactive-rebase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>interactive rebase</title>
+      <link>https://dothossein.github.io/git-tutorial/blog/lesson-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/blog/lesson-13/</guid>
+      <description>interactive rebase</description>
+    </item>
+    
+  </channel>
+</rss>

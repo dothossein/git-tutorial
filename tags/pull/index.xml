@@ -14,7 +14,8 @@
       <guid>https://dothossein.github.io/git-tutorial/blog/lesson-12/</guid>
       <description>git pull git pull &amp;lt;origin&amp;gt; &amp;lt;master&amp;gt;orgit pull در صورتی که conflict داشته باشیم
 وارد فایل مورد نظر در ادیتور شده تداخلات نشان داده شده را رفع می کنیم و مجددا:
-git add .git commit -m &amp;#34;conflict fix&amp;#34; </description>
+git add .git commit -m &amp;#34;conflict fix&amp;#34; بعد از رفع تداخلات
+git push </description>
     </item>
     
   </channel>

@@ -220,6 +220,18 @@ file4.txt فایل بالا در git status نشان داده نمی شود</p>
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>interactive rebase
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>نشان دادن تمامی کامیت ها git rebase -i --root Commands: p, pick = use commit r, reword = use commit, but edit the commit message(تغییر نام خود کامیت) e, edit = use commit, but stop for amending s, squash = use commit, but meld into previous commit f, fixup [-C | -c] = like “squash” but keep only the previous(با کامیت بالایی میکس شده و کامیت بالایی را بعنوان پیام ذخیره میکند) commit’s log message, unless -C is used, in which case keep only this commit’s message; -c is same as -C but opens the editor x, exec = run command (the rest of the line) using shell b, break = stop here (continue rebase later with ‘git rebase –continue’) d, drop = remove commit l, label = label current HEAD with a name t, reset = reset HEAD to a label m, merge [-C | -c ] [# ] create a merge commit using the original merge commit’s message (or the oneline, if no original merge commit was specified); use -c to reword the commit message u, update-ref = track a placeholder for the to be updated to this position in the new commits....</p>
+  </div>
+  <footer class="entry-footer">2 دقیقه&nbsp;·&nbsp;dothossein</footer>
+  <a class="entry-link" aria-label="post link to interactive rebase" href="https://dothossein.github.io/git-tutorial/blog/lesson-13/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>merge branch
     </h2>
   </header>
@@ -240,7 +252,8 @@ git add .git commit -m &#34;conflict fix&#34; </p>
   <div class="entry-content">
     <p>git pull git pull &lt;origin&gt; &lt;master&gt;orgit pull در صورتی که conflict داشته باشیم
 وارد فایل مورد نظر در ادیتور شده تداخلات نشان داده شده را رفع می کنیم و مجددا:
-git add .git commit -m &#34;conflict fix&#34; </p>
+git add .git commit -m &#34;conflict fix&#34; بعد از رفع تداخلات
+git push </p>
   </div>
   <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
   <a class="entry-link" aria-label="post link to pull" href="https://dothossein.github.io/git-tutorial/blog/lesson-12/"></a>
@@ -288,21 +301,6 @@ git restore --staged &lt;file&gt; بازگشت به یک کامیت بدون ت�
   </div>
   <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
   <a class="entry-link" aria-label="post link to restore" href="https://dothossein.github.io/git-tutorial/blog/lesson-8/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>revert
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>revert بازگشت به یک کامیت
-انجام تغییرات در آن کامیت و حل conflict ها
-مجددا برگشت به کامیت آخر
-git revert &lt;hash&gt;git add .git revert --continue تفاوت با دستور reset دستور ریست کامیت ها را پاک می کند اما revert آنها را نگه میدارد</p>
-  </div>
-  <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
-  <a class="entry-link" aria-label="post link to revert" href="https://dothossein.github.io/git-tutorial/blog/lesson-10/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
