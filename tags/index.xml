@@ -97,6 +97,15 @@
     </item>
     
     <item>
+      <title>git tag</title>
+      <link>https://dothossein.github.io/git-tutorial/tags/git-tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/tags/git-tag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>interactive rebase</title>
       <link>https://dothossein.github.io/git-tutorial/tags/interactive-rebase/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -178,6 +187,15 @@
     </item>
     
     <item>
+      <title>tag</title>
+      <link>https://dothossein.github.io/git-tutorial/tags/tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/tags/tag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>بازگشت به یک کامیت</title>
       <link>https://dothossein.github.io/git-tutorial/tags/%D8%A8%D8%A7%D8%B2%DA%AF%D8%B4%D8%AA-%D8%A8%D9%87-%DB%8C%DA%A9-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -192,6 +210,33 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dothossein.github.io/git-tutorial/tags/%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1-%D9%86%D8%A7%D9%85-%DA%A9%D8%A7%D9%85%DB%8C%D8%AA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>تگ</title>
+      <link>https://dothossein.github.io/git-tutorial/tags/%D8%AA%DA%AF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/tags/%D8%AA%DA%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>جابجا کردن تگ</title>
+      <link>https://dothossein.github.io/git-tutorial/tags/%D8%AC%D8%A7%D8%A8%D8%AC%D8%A7-%DA%A9%D8%B1%D8%AF%D9%86-%D8%AA%DA%AF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/tags/%D8%AC%D8%A7%D8%A8%D8%AC%D8%A7-%DA%A9%D8%B1%D8%AF%D9%86-%D8%AA%DA%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>حذف تگ</title>
+      <link>https://dothossein.github.io/git-tutorial/tags/%D8%AD%D8%B0%D9%81-%D8%AA%DA%AF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dothossein.github.io/git-tutorial/tags/%D8%AD%D8%B0%D9%81-%D8%AA%DA%AF/</guid>
       <description></description>
     </item>
     

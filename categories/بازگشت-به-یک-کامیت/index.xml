@@ -12,8 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dothossein.github.io/git-tutorial/blog/lesson-7/</guid>
-      <description>بازگشت به یک کامیت git log --oneline --allgit checkout &amp;lt;hash&amp;gt; ویا
-git checkout HEAD~2 دستور بالا هد را دو ردیف پایین می آورد
+      <description>بازگشت به یک کامیت تغییر هد git log --oneline --allgit checkout &amp;lt;hash&amp;gt; و یا
+git checkout HEAD~2 بازگشت هد به آخرین کامیت git switch &amp;lt;master&amp;gt; دستور بالا هد را دو ردیف پایین می آورد
 بازگشت به یک کامیت بدون تغییر هد git restore --source &amp;lt;hash&amp;gt; &amp;lt;file&amp;gt; </description>
     </item>
     

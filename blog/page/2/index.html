@@ -164,12 +164,28 @@ git revert &lt;hash&gt;git add .git revert --continue تفاوت با دستو
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>tag
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>tag بر روی کامیتی که هد بر روی آن قرار دارد تگ می زند
+git tag &lt;name(v 2.0.0)&gt; تگ زدن برای یک کامیت خاص تگ زدن به یک هش ابتدا
+git log --oneline سپس
+git tag &lt;name(v 1.0.0)&gt; &lt;hash&gt; جابجا کردن یک تگ در صورتی که به یک کامیت اشتباها تگ زده باشیم برای تغییر تگ از دستور زیر استفاده می کنیم
+git tag -f &lt;name(همان اسم قبلی)&gt; &lt;new-hash&gt; نشان دادن تمامی تگ ها git tag حذف تگ git tag -d &lt;tag-name(v 1....</p>
+  </div>
+  <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
+  <a class="entry-link" aria-label="post link to tag" href="https://dothossein.github.io/git-tutorial/blog/lesson-14/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>بازگشت به یک کامیت
     </h2>
   </header>
   <div class="entry-content">
-    <p>بازگشت به یک کامیت git log --oneline --allgit checkout &lt;hash&gt; ویا
-git checkout HEAD~2 دستور بالا هد را دو ردیف پایین می آورد
+    <p>بازگشت به یک کامیت تغییر هد git log --oneline --allgit checkout &lt;hash&gt; و یا
+git checkout HEAD~2 بازگشت هد به آخرین کامیت git switch &lt;master&gt; دستور بالا هد را دو ردیف پایین می آورد
 بازگشت به یک کامیت بدون تغییر هد git restore --source &lt;hash&gt; &lt;file&gt; </p>
   </div>
   <footer class="entry-footer">۱ دقیقه&nbsp;·&nbsp;dothossein</footer>
